@@ -1,6 +1,3 @@
-import BAC0
+import bacpypes
 
-bacnet=BAC0.connect(ip='192.168.1.123/24')
-
-
-print(bacnet.devices)
+bacpypes
